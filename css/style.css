@@ -1,0 +1,151 @@
+/*all common css start*/
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+body {
+  background-image: url(../images/image/bacground.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+.clr {
+  clear: both;
+}
+.full_wrapper {
+  width: 100%;
+}
+.wrapper {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+/*all common css end*/
+
+.hope {
+  padding-top: 5px;
+}
+
+/* logo part start */
+.logo {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.logo .logo_text {
+  color: #fff;
+  font-size: 10px;
+  font-weight: normal;
+  word-spacing: 8px;
+}
+.logo_img img {
+  width: 30%;
+  height: 100%;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+/* logo2 part start */
+.logo2 {
+  /* line-height: 10px; */
+}
+.logo2_img {
+  text-align: center;
+}
+.logo2_img img {
+  width: 70%;
+  cursor: pointer;
+  margin-top: -5px;
+}
+.logo2_text {
+  text-align: center;
+  line-height: 17px;
+}
+.logo2_text h4{
+  color: #fff;
+  font-size: 22px;
+  font-family: ;
+  font-weight: bold;
+}
+.logo2_text p{
+  color: #18414f;
+  font-size: 10px;
+  font-family: ;
+  font-weight: bold;
+  word-spacing: 10px;
+  margin-top: -16px;
+}
+
+/* login part start */
+.login_part {
+  padding-top: 73%;
+  text-align: center;
+  width:;
+}
+input[type="text"],
+input[type="password"] {
+  width: 50%;
+  background: #dde4eb;
+  padding: 2px 20px;
+  margin: 4px 0;
+  display: inline-block;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+a.demo_btn {
+  background-color: #111a21;
+  color: rgba(255, 255, 255, 1);
+  font-size: 12px;
+  font-weight: 400;
+  padding: 4px 0px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  border-radius: 12px;
+  border: 1px solid #000;
+  /* margin-top: 40px; */
+  display: block;
+  margin: 0 auto;
+  margin-top: 6px;
+}
+a.demo_btn:hover {
+  opacity: 0.8;
+}
+.login_part p {
+  color: #cfc6c6;
+  margin-top: 8px;
+  font-size: 10px;
+  font-family: ;
+  cursor: pointer;
+  /* padding-bottom: 10px; */
+}
+
+/* footer part start */
+.footer_part{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.footer_part .footer_text {
+  color: #e4dada;
+  text-align: center;
+  font-size: 10px;
+  font-weight: normal;
+  margin-top: 16px;
+  /* margin-left: 16px; */
+}
+.footer_logo img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
